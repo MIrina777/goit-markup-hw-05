@@ -588,11 +588,11 @@
     <!-- BACKDROP WITH MODAL WINDOW -->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="close-btn">
+        <button class="close-btn" type="button">
           <svg
             class="close-btn-icon"
-            width="24"
-            height="24"
+            width="8"
+            height="8"
             aria-label="modal close icon"
           >
             <use href="./images/icons.svg#icon-close"></use>
@@ -601,12 +601,12 @@
         <p class="contact-form-text">
           Leave your contacts and we will call you back
         </p>
-        <form class="cotact-form">
-          <div class="cotact-form-field-wrapper">
-            <label class="cotact-for-field-label" for="user-name">Name</label>
-            <div class="cotact-form-input-wrapper">
+        <form class="contact-form">
+          <div class="contact-form-field-wrapper">
+            <label class="contact-for-field-label" for="user-name">Name</label>
+            <div class="contact-form-input-wrapper">
               <input
-                class="cotact-form-input"
+                class="contact-form-input"
                 type="text"
                 id="user-name"
                 name="user-name"
@@ -615,20 +615,22 @@
                 required
               />
               <svg
-                class="cotact-form-fiel-icon"
+                class="contact-form-fiel-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="user icon"
               >
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
           </div>
-          <div class="cotact-form-field-wrapper">
-            <label class="cotact-for-field-label" for="user-phone">Phone</label>
-            <div class="cotact-form-input-wrapper">
+          <div class="contact-form-field-wrapper">
+            <label class="contact-for-field-label" for="user-phone"
+              >Phone</label
+            >
+            <div class="contact-form-input-wrapper">
               <input
-                class="cotact-form-input"
+                class="contact-form-input"
                 type="tel"
                 id="user-phone"
                 name="user-phone"
@@ -637,7 +639,7 @@
                 required
               />
               <svg
-                class="cotact-form-fiel-icon"
+                class="contact-form-fiel-icon"
                 width="18"
                 height="24"
                 aria-label="phone icon"
@@ -646,11 +648,13 @@
               </svg>
             </div>
           </div>
-          <div class="cotact-form-field-wrapper">
-            <label class="cotact-for-field-label" for="user-email">Email</label>
-            <div class="cotact-form-input-wrapper">
+          <div class="contact-form-field-wrapper">
+            <label class="contact-for-field-label" for="user-email"
+              >Email</label
+            >
+            <div class="contact-form-input-wrapper">
               <input
-                class="cotact-form-input"
+                class="contact-form-input"
                 type="email"
                 id="user-email"
                 name="user-email"
@@ -659,7 +663,7 @@
                 required
               />
               <svg
-                class="cotact-form-fiel-icon"
+                class="contact-form-fiel-icon"
                 width="18"
                 height="24"
                 aria-label="email icon"
@@ -668,30 +672,30 @@
               </svg>
             </div>
           </div>
-          <div class="cotact-form-field-wrapper">
-            <label class="cotact-for-field-label" for="user-comment">
+          <div class="contact-form-field-wrapper contact-form-textrarea">
+            <label class="contact-for-field-label" for="user-comment">
               Comment
             </label>
             <textarea
-              class="cotact-form-comment"
-              name="user_comment"
+              class="contact-form-comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="cotact-form-checkbox-wrapper">
+          <div class="contact-form-checkbox-wrapper">
             <input
-              class="cotact-form-checkbox visually-hidden"
+              class="contact-form-checkbox visually-hidden"
               type="checkbox"
               id="user-privacy"
-              name="user_privacy"
+              name="user-privacy"
               value="true"
               required
             />
             <label for="user-privacy" class="cotact-form-checkbox-label">
-              <span class="cotact-form-own-checkbox">
+              <span class="contact-form-own-checkbox">
                 <svg
-                  class="cotact-form-own-checkbox-icon"
+                  class="contact-form-own-checkbox-icon"
                   width="16"
                   height="16"
                   aria-label="checkmark icon"
@@ -700,29 +704,14 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a class="cotact-form-privacy-link accent-color" href=""
+              <a class="contact-form-privacy-link accent-color" href=""
                 >Privacy Policy</a
               >
             </label>
           </div>
-          <button class="cotact-form-submit" type="submit">Send</button>
+          <button class="contact-form-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
-
-    <!-- <form class="cotact-form">
-      
-
-      
-
-      
-
-    
-
-       <div class="contact-form-btn-wrapper">
-        <button class="contact-form-btn contact-form-btn-submit" type="submit">
-          Send
-        </button>
-    </form> -->
   </body>
 </html>
