@@ -627,6 +627,9 @@ img {
 .contact-form-input:focus + .contact-form-fiel-icon {
   fill: #4d5ae5;
 }
+.contact-form-input:focus {
+  border-color: #4d5ae5;
+}
 
 .contact-form-textrarea {
   margin-bottom: 16px;
